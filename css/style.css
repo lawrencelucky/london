@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.mobile-nav-toggler {
+  display: none;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .nav-list {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.navbar .nav-link {
+  text-decoration: none;
+  color: #aaaaaa;
+  transition: all 0.5s ease-out;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #131313;
+}
+
+.navbar .active {
+  color: #131313;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.social-media-handle-container ul {
+  display: flex;
+}
+
+.social-media-handle-container .social-list {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.social-media-handle-container .social-link {
+  color: #aaaaaa;
+  transition: all 0.3s ease-out;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.social-media-handle-container .social-link:hover {
+  color: #131313;
+}
+
+.hero-section {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section h3 {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  width: 60%;
+}
+
+main {
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+}
+
+.container a {
+  flex-grow: 1;
+  text-decoration: none;
+}
+
+.background-container {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+}
+
+.background-container p {
+  color: white;
+  font-size: 34px;
+  font-weight: 700;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+
+.background-container:hover p {
+  opacity: 1;
+}
+
+.background-container-one {
+  background-image: url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/assets/bbbb.jpg');
+}
+
+.background-container-one:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/assets/bbbb.jpg');
+}
+
+.background-container-two {
+  background-image: url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/dont-stop/ian-dooley-298769-unsplash.jpg');
+}
+
+.background-container-two:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/dont-stop/ian-dooley-298769-unsplash.jpg');
+}
+
+.background-container-three {
+  background-image: url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/its-all-blue/cody-davis-253928-unsplash.jpg');
+}
+
+.background-container-three:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/its-all-blue/cody-davis-253928-unsplash.jpg');
+}
+
+.background-container-four {
+  background-image: url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/clean-lines/matthew-hamilton-351641-unsplash.jpg');
+}
+
+.background-container-four:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/clean-lines/matthew-hamilton-351641-unsplash.jpg');
+}
+
+.background-container-five {
+  background-image: url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/all-spikes/charles-deluvio-695732-unsplash.jpg');
+}
+
+.background-container-five:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/all-spikes/charles-deluvio-695732-unsplash.jpg');
+}
+
+.background-container-six {
+  background-image: url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/green/dose-juice-1184429-unsplash.jpg');
+}
+
+.background-container-six:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/green/dose-juice-1184429-unsplash.jpg');
+}
+
+.background-container-seven {
+  background-image: url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/get-fruity/mike-dorner-173502-unsplash.jpg');
+}
+
+.background-container-seven:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/get-fruity/mike-dorner-173502-unsplash.jpg');
+}
+
+.background-container-eight {
+  background-image: url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/fur/charles-deluvio-550068-unsplash.jpg');
+}
+
+.background-container-eight:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/fur/charles-deluvio-550068-unsplash.jpg');
+}
+
+.background-container-nine {
+  background-color: #1f1f1f;
+  height: 500px;
+  padding: 30px;
+  position: relative;
+}
+
+.background-container-nine h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.background-container-nine:hover h2 {
+  text-decoration: underline;
+}
+
+.background-container-nine p {
+  color: black;
+  font-size: 300px;
+  font-weight: 800;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  line-height: 0.8;
+}
+
+.background-container-ten {
+  background-image: url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/hello-world/salty_egg.jpg');
+}
+
+.background-container-ten:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('https://raw.githubusercontent.com/ImedAdel/gatsby-london/master/content/blog/hello-world/salty_egg.jpg');
+}
+
+@media screen and (max-width: 768px) {
+  .background-container p {
+    opacity: 1;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .mobile-nav-toggler {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header .navbar {
+    display: none;
+  }
+
+  .hero-section {
+    padding: 20px;
+    height: 250px;
+  }
+
+  .hero-section h3 {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .social-media-handle-container {
+    display: none;
+  }
+
+  .mobile-nav-toggler {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    padding: 15px;
+  }
+}
